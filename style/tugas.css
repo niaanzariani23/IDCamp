@@ -1,0 +1,38 @@
+body {
+    margin: 85px;
+    padding: 10px 0;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur;
+} 
+h1 {
+    text-align: center;
+    color: mediumvioletred;
+}
+.login {
+    margin: auto;
+    width: auto;
+    padding: 30px;
+    background-color: rgba(248, 161, 161, 0.7);
+    border-radius: 10;}
+
+.inp, textarea,button {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    margin: 5px 0 10px 0 ;
+    height: 30px;
+}
+
+@media screen and (max-width: 540px) {
+    
+    .formulir {
+      width: 75pw;
+    }
+    h1 {
+        margin: 0 0 15px 0;
+        font-size: 25px;
+    }
+}
